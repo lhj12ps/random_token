@@ -7,4 +7,6 @@ describe("Token", () => {
   it("Token deployed", async () => {
     tokenDeployed = await Token.deployed();
   });
+
+  it("Token Mint?",async ()=>{  })
 });
